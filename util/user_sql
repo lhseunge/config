@@ -1,3 +1,5 @@
+-- https://generatedata.com/generator
+
 DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user` (
