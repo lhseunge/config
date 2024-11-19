@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Server and cloud storage browser
+cask "cyberduck"
+# Databases and SQL IDE
+cask "datagrip"
+# App to build and share containerised applications and microservices
+cask "docker"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Desktop automation application
+cask "hammerspoon"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Java IDE by JetBrains
+cask "intellij-idea"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Keyboard customiser
+cask "karabiner-elements"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Calendar for professionals and teams
+cask "notion-calendar"
+# Collaboration platform for API development
+cask "postman"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@17"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@8"
+# Virtual machine client
+cask "vmware-horizon-client"
