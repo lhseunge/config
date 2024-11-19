@@ -1,0 +1,34 @@
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `name` varchar(255) default NOT NULL,
+  `userId` varchar(255) default NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `phone` varchar(100) default NULL,
+  `email` varchar(255) default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `user` (`name`,`userId`,`password`,`phone`,`email`)
+VALUES
+  ("Risa Norris","Eaton","YBI46RAB4RO","010-6118-5470","cum.sociis@protonmail.net"),
+  ("Macey Kinney","Matthew","AKG36KRH9KC","010-8651-6703","sed.neque.sed@protonmail.com"),
+  ("Germaine Clarke","Fallon","DVI18HKF3BR","010-2683-4327","consectetuer.mauris.id@protonmail.net"),
+  ("Jelani Cannon","Mikayla","WBO11IBA9XE","010-8970-9017","ante.blandit@hotmail.com"),
+  ("Sawyer Hensley","Leo","DLN69MIL4QK","010-5056-1082","turpis.nulla@hotmail.net"),
+  ("Len Lane","Linus","LYB33VGH8WM","010-4658-6263","lectus.ante.dictum@aol.com"),
+  ("Erin Franklin","Kellie","ICT08KIB2PI","010-2362-2319","nullam.ut@aol.edu"),
+  ("Kelly Rosario","Athena","XTC84DGT1KP","010-0959-2457","donec@outlook.net"),
+  ("Aphrodite Mcpherson","Minerva","IZW66IHY6OT","010-4146-6932","egestas@icloud.com"),
+  ("John Hoffman","Hector","EYP15GXI8QE","010-5817-5709","vestibulum.lorem.sit@yahoo.ca"),
+  ("Abra O'donnell","Abbot","HBG88GOY7QG","010-3851-1257","tincidunt@yahoo.edu"),
+  ("Wang Horn","Amela","PMG63IPX5YJ","010-2677-4842","in.consectetuer@outlook.ca"),
+  ("Leila Weiss","Candace","LGW36GBD7BL","010-5411-3277","urna@icloud.couk"),
+  ("Jamal Huber","Rama","FIH13FQT5VK","010-8251-2556","nunc.pulvinar@aol.couk"),
+  ("Reagan Nguyen","Ciaran","UGX25OSI1SV","010-0882-6445","imperdiet.ullamcorper.duis@hotmail.ca"),
+  ("Rudyard Guy","Melanie","EJF27TZE2LM","010-5858-2555","vitae.velit@hotmail.edu"),
+  ("Kylie Hicks","Echo","ZHF83MQF1GO","010-5718-9135","tempus.scelerisque@outlook.net"),
+  ("Cathleen Mccullough","Brennan","BUP57JWV1MZ","010-4788-5142","molestie.sed.id@hotmail.com"),
+  ("Alfonso Bauer","MacKensie","LUQ73WRL0ML","010-3222-6738","massa.integer@icloud.ca"),
+  ("Carol Potts","Hu","OEY54KVZ4JT","010-9048-7587","egestas@outlook.edu");
